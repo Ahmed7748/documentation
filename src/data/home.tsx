@@ -5,10 +5,10 @@ export default {
   description: "React hook for form validation without the hassle",
 
   slogan:
-    "Performant, flexible and extensible forms with easy-to-use validation.",
-  getStarted: "Get Started",
+    "Performant, flexible, and extensible forms with easy-to-use validation.",
+  get-started: "Get Started",
   demo: "Demo",
-  findInteresting: {
+  find interesting: {
     heading: "Ready to get started?",
     description: (
       <p className={typographyStyles.homeParagraph}>
@@ -88,7 +88,7 @@ export default {
     totalChange: "No. of committing change(s)",
     totalTime: "Total time",
   },
-  liveDemo: {
+  live-demo: {
     description: (
       <>
         The following form demonstrates form validation in action. Each column
@@ -97,8 +97,8 @@ export default {
       </>
     ),
     submit: "Submit",
-    watchTitle: "Watch",
-    errorTitle: "Errors",
+    watch title: "Watch",
+    error title: "Errors",
     touchedTitle: "Touched",
     watch: "Change inputs value to update watched values",
     error: "Validation errors will appear here",
@@ -109,12 +109,12 @@ export default {
     description: (
       <>
         <p>
-          This function allow you to run any external validation methods, such
+          This function allows you to run any external validation methods, such
           as{" "}
           <a
             href="https://github.com/hapijs/joi"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="no opener no-referrer"
           >
             Joi
           </a>
@@ -122,12 +122,12 @@ export default {
           <a
             href="https://github.com/ianstormtaylor/superstruct"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="no opener no-referrer"
           >
             Superstruct
           </a>{" "}
-          and etc. In fact, the goal is not only limited Yup as our external
-          (schema) validation library. We would like to support many other
+          , etc. The goal is not limited to Yup as our external
+          (schema) validation library. We want to support many other
           validation libraries to work with React Hook Form. You can even write
           your custom validation logic to validate.
         </p>
